@@ -16,15 +16,20 @@ export default {
     props: ['smartphoneId', 'userId'],
     methods: {
         async addProductToCart() {
-            if (this.userId == 0) {
-                this.$toastr.e('You need to login to add this product to cart');
-            } else {
-                let response = await axios.post('/cart', {
-                    'smartphone_id': this.smartphoneId
-                });
-
-                this.$root.$emit('changeInCart', response.data.items);
+            try {
+                if (this.userId == 0) {
+                    this.$toastr.e('You need to login to add this product to cart');
+                } else {
+                    let response = await axios.post('/cart', {
+                        'smartphone_id': this.smartphoneId
+                    });
+                    this.$root.$emit('changeInCart', response.data.items);
+                    this.$toastr.s(response.data.message);
+                }
+            } catch (error) {
+                this.$toastr.w('Product already added to cart');
             }
+
         }
     },
     mounted() {

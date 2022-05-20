@@ -11,7 +11,7 @@ class Smartphone extends Model
 
     public $table = 'smartphones';
 
-    protected $fillable = ['name', 'slug', 'description',
+    protected $fillable = ['name', 'slug', 'brand', 'description',
                              'specs', 'stock', 'image_name',
                              'price', 'sale_price', 'created_at',
                              'updated_at'];

@@ -10,7 +10,7 @@
                         <div class="row no-gutters align-items-center ">
                             <div class="col-lg-4 col-md-5">
                                 <div class="slider-product-image d-none d-md-block">
-                                    <img src="assets/images/slider/1.jpg" alt="Slider">
+                                    <img src="assets/images/slider-images/apple-slider.jpg" alt="Slider">
                                     <div class="slider-discount-tag">
                                         <p>-50% <br> OFF</p>
                                     </div>
@@ -18,9 +18,10 @@
                             </div>
                             <div class="col-lg-8 col-md-7">
                                 <div class="slider-product-content">
-                                    <h1 class="slider-title mb-10" data-animation="fadeInUp" data-delay="0.3s">
-                                        <span>Sofa</span> and <span>Armchairs</span>
-                                    </h1>
+                                    <h1>Apple</h1>
+                                    <h2 class="slider-title mb-10" data-animation="fadeInUp" data-delay="0.3s">
+                                        <span>Quality</span> and <span>usability</span>
+                                    </h2>
                                     <p class="mb-25" data-animation="fadeInUp" data-delay="0.9s">One day
                                         however a small line of blind text by the name of Lorem Ipsum <br> decided to
                                         leave for the far World of Grammar.</p>
@@ -37,7 +38,7 @@
                         <div class="row no-gutters align-items-center">
                             <div class="col-lg-4 col-md-5">
                                 <div class="slider-product-image d-none d-md-block">
-                                    <img src="assets/images/slider/3.jpg" alt="Slider">
+                                    <img src="assets/images/slider-images/samsung-slider.jpg" alt="Slider">
                                     <div class="slider-discount-tag">
                                         <p>-20% <br> OFF</p>
                                     </div>
@@ -45,9 +46,10 @@
                             </div>
                             <div class="col-lg-8 col-md-7">
                                 <div class="slider-product-content">
-                                    <h1 class="slider-title mb-10" data-animation="fadeInUp" data-delay="0.3s">
-                                        <span>Winter</span> Sale! is <span>Here</span>
-                                    </h1>
+                                    <h1>Samsung</h1>
+                                    <h2 class="slider-title mb-10" data-animation="fadeInUp" data-delay="0.3s">
+                                        <span>Style</span> and <span>elegance</span>
+                                    </h2>
                                     <p class="mb-25" data-animation="fadeInUp" data-delay="0.9s">One day
                                         however a small line of blind text by the name of Lorem Ipsum <br> decided to
                                         leave for the far World of Grammar.</p>
@@ -64,7 +66,35 @@
                         <div class="row no-gutters align-items-center">
                             <div class="col-lg-4 col-md-5">
                                 <div class="slider-product-image d-none d-md-block">
-                                    <img src="assets/images/slider/2.jpg" alt="Slider">
+                                    <img src="assets/images/slider-images/xiaomi-slider.jpg" alt="Slider">
+                                    <div class="slider-discount-tag">
+                                        <p>-20% <br> OFF</p>
+                                    </div>
+                                </div> <!-- slider product image -->
+                            </div>
+                            <div class="col-lg-8 col-md-7">
+                                <div class="slider-product-content">
+                                    <h1>Xiaomi</h1>
+                                    <h2 class="slider-title mb-10" data-animation="fadeInUp" data-delay="0.3s">
+                                        <span>Performance</span> and <span>value</span>
+                                    </h2>
+                                    <p class="mb-25" data-animation="fadeInUp" data-delay="0.9s">One day
+                                        however a small line of blind text by the name of Lorem Ipsum <br> decided to
+                                        leave for the far World of Grammar.</p>
+                                    <a class="main-btn" href="#" data-animation="fadeInUp" data-delay="1.5s">Explore
+                                        More <i class="lni-chevron-right"></i></a>
+                                </div> <!-- slider product content -->
+                            </div>
+                        </div> <!-- row -->
+                    </div> <!-- container -->
+                </div> <!-- single slider -->
+
+                <div class="single-slider">
+                    <div class="slider-bg">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-lg-4 col-md-5">
+                                <div class="slider-product-image d-none d-md-block">
+                                    <img src="assets/images/slider-images/oppo-slider.jpg" alt="Slider">
                                     <div class="slider-discount-tag">
                                         <p>FREE<br> QUOTE</p>
                                     </div>
@@ -72,9 +102,10 @@
                             </div>
                             <div class="col-lg-8 col-md-7">
                                 <div class="slider-product-content">
-                                    <h1 class="slider-title mb-10" data-animation="fadeInUp" data-delay="0.3s">
-                                        <span>Get</span> a Free <span>Quote</span>
-                                    </h1>
+                                    <h1>OPPO</h1>
+                                    <h2 class="slider-title mb-10" data-animation="fadeInUp" data-delay="0.3s">
+                                        <span>Power</span> and <span>style</span>
+                                    </h2>
                                     <p class="mb-25" data-animation="fadeInUp" data-delay="0.9s">One day
                                         however a small line of blind text by the name of Lorem Ipsum <br> decided to
                                         leave for the far World of Grammar.</p>
@@ -110,10 +141,10 @@
                 <div class="col-lg-6">
                     <div class="single-discount-product mt-30">
                         <div class="product-image">
-                            <img src="assets/images/discount-product/product-1.jpg" alt="Product">
+                            <img src="assets/images/gadgets/smartwatch.jpg" alt="Product">
                         </div> <!-- product image -->
                         <div class="product-content">
-                            <h4 class="content-title mb-15">High-quality furnitures <br> For your home</h4>
+                            <h4 class="content-title mb-15">Smartwatches</h4>
                             <a href="#">View Collection <i class="lni-chevron-right"></i></a>
                         </div> <!-- product content -->
                     </div> <!-- single discount product -->
@@ -121,10 +152,10 @@
                 <div class="col-lg-6">
                     <div class="single-discount-product mt-30">
                         <div class="product-image">
-                            <img src="assets/images/discount-product/product-2.jpg" alt="Product">
+                            <img src="assets/images/gadgets/earphones.jpg" alt="Product">
                         </div> <!-- product image -->
                         <div class="product-content">
-                            <h4 class="content-title mb-15">Hot Offer <br> Discount up to 80%</h4>
+                            <h4 class="content-title mb-15">Earphones</h4>
                             <a href="#">View Collection <i class="lni-chevron-right"></i></a>
                         </div> <!-- product content -->
                     </div> <!-- single discount product -->
@@ -142,23 +173,20 @@
             <div class="row">
                 <div class="col-lg-3 col-md-4">
                     <div class="collection-menu text-center mt-30">
-                        <h4 class="collection-tilte">OUR COLLECTION</h4>
+                        <h4 class="collection-tilte">BRANDS</h4>
                         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <a class="active" id="v-pills-furniture-tab" data-toggle="pill"
                                 href="#v-pills-furniture" role="tab" aria-controls="v-pills-furniture"
-                                aria-selected="true">Furniture</a>
+                                aria-selected="true">Apple</a>
 
                             <a id="v-pills-decorative-tab" data-toggle="pill" href="#v-pills-decorative" role="tab"
-                                aria-controls="v-pills-decorative" aria-selected="false">Decorative</a>
+                                aria-controls="v-pills-decorative" aria-selected="false">Samsung</a>
 
                             <a id="v-pills-lighting-tab" data-toggle="pill" href="#v-pills-lighting" role="tab"
-                                aria-controls="v-pills-lighting" aria-selected="false">Lighting</a>
+                                aria-controls="v-pills-lighting" aria-selected="false">Xiaomi</a>
 
                             <a id="v-pills-outdoor-tab" data-toggle="pill" href="#v-pills-outdoor" role="tab"
-                                aria-controls="v-pills-outdoor" aria-selected="false">Outdoor</a>
-
-                            <a id="v-pills-storage-tab" data-toggle="pill" href="#v-pills-storage" role="tab"
-                                aria-controls="v-pills-storage" aria-selected="false">Storage</a>
+                                aria-controls="v-pills-outdoor" aria-selected="false">OPPO</a>
                         </div> <!-- nav -->
                     </div> <!-- collection menu -->
                 </div>
@@ -170,124 +198,43 @@
                                 <div class="row product-items-active">
                                     @if (isset($smartphones))
                                         @foreach ($smartphones as $smartphone)
-                                            <div class="col-md-4">
-                                                <div class="single-product-items">
-                                                    <div class="product-item-image">
-                                                        <a href="#"><img src="{{ $smartphone->image_name }}"
-                                                                alt="Product"></a>
-                                                        <div class="product-discount-tag">
-                                                            <p>-$50</p>
+                                            @if ($smartphone->brand == 'Apple')
+                                                <div class="col-md-4">
+                                                    <div class="single-product-items">
+                                                        <div class="product-item-image">
+                                                            <a href="#"><img src="{{ $smartphone->image_name }}"
+                                                                    alt="Product"></a>
+                                                            <div class="product-discount-tag">
+                                                                <p>-$50</p>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="product-item-content text-center mt-30">
-                                                        <h5 class="product-title"><a href="#">{{ $smartphone->name }}</a>
-                                                        </h5>
-                                                        <ul class="rating">
-                                                            <li><i class="lni-star-filled"></i></li>
-                                                            <li><i class="lni-star-filled"></i></li>
-                                                            <li><i class="lni-star-filled"></i></li>
-                                                            <li><i class="lni-star-filled"></i></li>
-                                                        </ul>
-                                                        <span class="regular-price">$
-                                                            {{ $smartphone->sale_price }}</span>
-                                                        <span class="discount-price">$
-                                                            {{ $smartphone->price }}</span>
-                                                    </div>
-                                                    <div id="buttons" class="d-flex justify-content-between">
-                                                        <add-to-cart-button smartphone-id="{{ $smartphone->id }}"
-                                                            user-id="{{ auth()->user()->id ?? 0 }}"></add-to-cart-button>
-                                                        <add-to-wish-button></add-to-wish-button>
-                                                    </div>
-                                                </div> <!-- single product items -->
+                                                        <div class="product-item-content text-center mt-30">
+                                                            <h5 class="product-title"><a
+                                                                    href="#">{{ $smartphone->name }}</a>
+                                                            </h5>
+                                                            <ul class="rating">
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                            </ul>
+                                                            <span class="regular-price">$
+                                                                {{ $smartphone->sale_price }}</span>
+                                                            <span class="discount-price">$
+                                                                {{ $smartphone->price }}</span>
+                                                        </div>
+                                                        <div id="buttons" class="d-flex justify-content-between">
+                                                            <add-to-cart-button smartphone-id="{{ $smartphone->id }}"
+                                                                user-id="{{ auth()->user()->id ?? 0 }}">
+                                                            </add-to-cart-button>
+                                                            <add-to-wish-button></add-to-wish-button>
+                                                        </div>
+                                                    </div> <!-- single product items -->
 
-                                            </div>
+                                                </div>
+                                            @endif
                                         @endforeach
                                     @endif
-
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-2.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-20%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$129.00</span>
-                                                <span class="discount-price">$159.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-3.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-10%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Classic Wardrobe</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$89.00</span>
-                                                <span class="discount-price">$129.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-1.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-2.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
                                 </div> <!-- row -->
                             </div> <!-- product items -->
                         </div> <!-- tab pane -->
@@ -296,111 +243,45 @@
                             aria-labelledby="v-pills-decorative-tab">
                             <div class="product-items mt-30">
                                 <div class="row product-items-active">
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-1.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
+                                    @if (isset($smartphones))
+                                        @foreach ($smartphones as $smartphone)
+                                            @if ($smartphone->brand == 'Samsung')
+                                                <div class="col-md-4">
+                                                    <div class="single-product-items">
+                                                        <div class="product-item-image">
+                                                            <a href="#"><img src="{{ $smartphone->image_name }}"
+                                                                    alt="Product"></a>
+                                                            <div class="product-discount-tag">
+                                                                <p>-$50</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product-item-content text-center mt-30">
+                                                            <h5 class="product-title"><a
+                                                                    href="#">{{ $smartphone->name }}</a>
+                                                            </h5>
+                                                            <ul class="rating">
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                            </ul>
+                                                            <span class="regular-price">$
+                                                                {{ $smartphone->sale_price }}</span>
+                                                            <span class="discount-price">$
+                                                                {{ $smartphone->price }}</span>
+                                                        </div>
+                                                        <div id="buttons" class="d-flex justify-content-between">
+                                                            <add-to-cart-button smartphone-id="{{ $smartphone->id }}"
+                                                                user-id="{{ auth()->user()->id ?? 0 }}">
+                                                            </add-to-cart-button>
+                                                            <add-to-wish-button></add-to-wish-button>
+                                                        </div>
+                                                    </div> <!-- single product items -->
+
                                                 </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-2.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-3.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-1.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-2.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
+                                            @endif
+                                        @endforeach
+                                    @endif
                                 </div> <!-- row -->
                             </div> <!-- product items -->
                         </div> <!-- tab pane -->
@@ -409,111 +290,45 @@
                             aria-labelledby="v-pills-lighting-tab">
                             <div class="product-items mt-30">
                                 <div class="row product-items-active">
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-1.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
+                                    @if (isset($smartphones))
+                                        @foreach ($smartphones as $smartphone)
+                                            @if ($smartphone->brand == 'Xiaomi')
+                                                <div class="col-md-4">
+                                                    <div class="single-product-items">
+                                                        <div class="product-item-image">
+                                                            <a href="#"><img src="{{ $smartphone->image_name }}"
+                                                                    alt="Product"></a>
+                                                            <div class="product-discount-tag">
+                                                                <p>-$50</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product-item-content text-center mt-30">
+                                                            <h5 class="product-title"><a
+                                                                    href="#">{{ $smartphone->name }}</a>
+                                                            </h5>
+                                                            <ul class="rating">
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                            </ul>
+                                                            <span class="regular-price">$
+                                                                {{ $smartphone->sale_price }}</span>
+                                                            <span class="discount-price">$
+                                                                {{ $smartphone->price }}</span>
+                                                        </div>
+                                                        <div id="buttons" class="d-flex justify-content-between">
+                                                            <add-to-cart-button smartphone-id="{{ $smartphone->id }}"
+                                                                user-id="{{ auth()->user()->id ?? 0 }}">
+                                                            </add-to-cart-button>
+                                                            <add-to-wish-button></add-to-wish-button>
+                                                        </div>
+                                                    </div> <!-- single product items -->
+
                                                 </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-2.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-3.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-1.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-2.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
+                                            @endif
+                                        @endforeach
+                                    @endif
                                 </div> <!-- row -->
                             </div> <!-- product items -->
                         </div> <!-- tab pane -->
@@ -522,231 +337,51 @@
                             aria-labelledby="v-pills-outdoor-tab">
                             <div class="product-items mt-30">
                                 <div class="row product-items-active">
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-1.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-2.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-3.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-1.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-2.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                </div> <!-- row -->
-                            </div> <!-- product items -->
-                        </div> <!-- tab pane -->
+                                    @if (isset($smartphones))
+                                        @foreach ($smartphones as $smartphone)
+                                            @if ($smartphone->brand == 'OPPO')
+                                                <div class="col-md-4">
+                                                    <div class="single-product-items">
+                                                        <div class="product-item-image">
+                                                            <a href="#"><img src="{{ $smartphone->image_name }}"
+                                                                    alt="Product"></a>
+                                                            <div class="product-discount-tag">
+                                                                <p>-$50</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product-item-content text-center mt-30">
+                                                            <h5 class="product-title"><a
+                                                                    href="#">{{ $smartphone->name }}</a>
+                                                            </h5>
+                                                            <ul class="rating">
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                                <li><i class="lni-star-filled"></i></li>
+                                                            </ul>
+                                                            <span class="regular-price">$
+                                                                {{ $smartphone->sale_price }}</span>
+                                                            <span class="discount-price">$
+                                                                {{ $smartphone->price }}</span>
+                                                        </div>
+                                                        <div id="buttons" class="d-flex justify-content-between">
+                                                            <add-to-cart-button smartphone-id="{{ $smartphone->id }}"
+                                                                user-id="{{ auth()->user()->id ?? 0 }}">
+                                                            </add-to-cart-button>
+                                                            <add-to-wish-button></add-to-wish-button>
+                                                        </div>
+                                                    </div> <!-- single product items -->
 
-                        <div class="tab-pane fade" id="v-pills-storage" role="tabpanel"
-                            aria-labelledby="v-pills-storage-tab">
-                            <div class="product-items mt-30">
-                                <div class="row product-items-active">
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-1.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
                                                 </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-2.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-3.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-1.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single-product-items">
-                                            <div class="product-item-image">
-                                                <a href="#"><img src="assets/images/product/p-2.jpg" alt="Product"></a>
-                                                <div class="product-discount-tag">
-                                                    <p>-60%</p>
-                                                </div>
-                                            </div>
-                                            <div class="product-item-content text-center mt-30">
-                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
-                                                <ul class="rating">
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                    <li><i class="lni-star-filled"></i></li>
-                                                </ul>
-                                                <span class="regular-price">$59.00</span>
-                                                <span class="discount-price">$69.00</span>
-                                            </div>
-                                        </div> <!-- single product items -->
-                                    </div>
+                                            @endif
+                                        @endforeach
+                                    @endif
                                 </div> <!-- row -->
                             </div> <!-- product items -->
                         </div> <!-- tab pane -->
-                    </div> <!-- tab content -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
     </section>
 
     <!--====== PRODUCT PART ENDS ======-->
@@ -1291,5 +926,4 @@
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
 
     <!--====== BACK TO TOP PART ENDS ======-->
-
 @endsection

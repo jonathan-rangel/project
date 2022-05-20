@@ -1,8 +1,8 @@
 <template>
     <div>
         <li class="nav-item">
-            <a href="/home" class="text-sm text-gray-700 dark:text-gray-500 underline">
-                Cart {{ itemCount }}
+            <a href="/cart" data-scroll-nav="0" class="text-sm text-gray-700 dark:text-gray-500 underline">
+                <i class="fa-solid fa-cart-shopping"></i> {{ itemCount }}
             </a>
         </li>
     </div>
@@ -21,7 +21,13 @@ export default {
         })
     },
     methods: {
-        getCarItemsOnPageLoad()
+        async getCarItemsOnPageLoad() {
+            let response = await axios.post('/cart');
+            this.itemCount = response.data.items
+        }
+    },
+    created() {
+        this.getCarItemsOnPageLoad();
     }
 }
 </script>

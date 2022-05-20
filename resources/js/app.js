@@ -27,6 +27,7 @@ Vue.use(VueToastr);
 Vue.component('add-to-cart-button', require('./components/AddToCart.vue').default);
 Vue.component('add-to-wish-button', require('./components/AddToWish.vue').default);
 Vue.component('cart', require('./components/Cart.vue').default);
+Vue.component('cart-control', require('./components/Cart-control.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

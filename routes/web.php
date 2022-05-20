@@ -19,3 +19,7 @@ Route::get('/', [SmartphonesController::class, 'index']);
 Auth::routes();
 
 Route::post('/cart', [CartsController::class, 'store'])->name('cart');
+
+Route::get('/cart', [CartsController::class, 'index'])->name('view');
+
+Route::get('/cart/get-items', [CartsController::class, 'getCartItems']);

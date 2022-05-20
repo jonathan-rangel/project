@@ -15,7 +15,7 @@ class CartsController extends Controller
      */
     public function index()
     {
-        //
+        return view('pages.cart');
     }
 
     /**
@@ -36,6 +36,15 @@ class CartsController extends Controller
      */
     public function store(Request $request)
     {
+        $userItems = Cart::where('user_id', auth()->user()->id)->sum('quantity');
+
+        if(!$request->get('smartphone_id')) {
+            return [
+                'message' => 'Cart items returned',
+                'items' => $userItems
+            ];
+        }
+
         $smartphone = Smartphone::where('id', $request->get('smartphone_id'))->first();
 
         $productFound = Cart::where('smartphone_id', $request->get('smartphone_id'))->pluck('id');
@@ -47,16 +56,16 @@ class CartsController extends Controller
                 'total_price' => $smartphone->sale_price,
                 'user_id' => auth()->user()->id,
             ]);
-        } else {
-            $cart = Cart::where('smartphone_id', $request->get('smartphone_id'))->increment('quantity');
+            $message = 'Added to cart';
         }
 
         $userItems = Cart::where('user_id', auth()->user()->id)->sum('quantity');
 
         if($cart) {
-            return ['message' => 'Added to cart',
-                    'items' => $userItems
-        ];
+            return [
+                'message' => $message,
+                'items' => $userItems
+            ];
         }
     }
 
@@ -103,5 +112,38 @@ class CartsController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function getCartItems() {
+        $cartItems = Cart::with('smartphone')->where('user_id', auth()->user()->id)->get();
+
+        $finalData = [];
+
+        $amount = 0;
+
+
+        if(isset($cartItems))
+        {
+            foreach($cartItems as $cartItem)
+            {
+                if($cartItem->smartphone)
+                {
+                    foreach($cartItem->smartphone as $cartProduct)
+                    {
+                        if($cartProduct->id == $cartItem->smartphone_id)
+                        {
+                            $finalData[$cartItem->smartphone_id]['id'] = $cartProduct->id;
+                            $finalData[$cartItem->smartphone_id]['name'] = $cartProduct->name;
+                            $finalData[$cartItem->smartphone_id]['image_name'] = $cartProduct->image_name;
+                            $finalData[$cartItem->smartphone_id]['quantity'] = $cartItem->quantity;
+                            $finalData[$cartItem->smartphone_id]['total_price'] = $cartItem->total_price * $cartItem->quantity;
+                            $amount += $cartItem->total_price * $cartItem->quantity;
+                            $finalData['totalAmount'] = $amount;
+                        }
+                    }
+                }
+            }
+        }
+        return response()->json($finalData);
     }
 }
