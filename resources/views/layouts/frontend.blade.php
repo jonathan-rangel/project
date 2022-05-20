@@ -100,6 +100,16 @@
                                     @if (Route::has('login'))
                                         @auth
                                             <cart></cart>
+                                            <li class="nav-item">
+                                                <a href="{{ route('logout') }}"
+                                                    class="text-sm text-gray-700 dark:text-gray-500 underline" onclick="event.preventDefault();
+                                                        document.getElementById('logout-form').submit();">Logout
+                                                </a>
+
+                                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                                    @csrf
+                                                </form>
+                                            </li>
                                         @else
                                             <li class="nav-item">
                                                 <a href="{{ route('login') }}"

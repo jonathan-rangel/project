@@ -20,13 +20,14 @@ class SmartphoneFactory extends Factory
         $name = $this->faker->text(25);
         $description = $this->faker->text(200);
         $specs = $this->faker->text(200);
-        $image_url = $this->faker->imageUrl($width = 140, $height = 300);
+        $image_url = $this->faker->imageUrl($width = 140, $height = 200);
         $stock = $this->faker->numberBetween($min = 0, $max = 30);
         $price = $this->faker->numberBetween($min = 8999, $max = 22999);
-
+        $brand = $this->faker->company();
         return [
             'name' => $name,
             'slug' => Str::slug($name),
+            'brand' => $brand,
             'description' => $description,
             'specs' => $specs,
             'stock' =>$stock,
